@@ -1,5 +1,5 @@
 ``` mermaid
-graph TD
+graph LR
     style A fill:#D4E6F1,stroke:#2980B9,stroke-width:2px,color:#000000
     style B fill:#FCF3CF,stroke:#F4D03F,stroke-width:2px,color:#000000
     style C fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#000000
@@ -10,7 +10,7 @@ graph TD
     style H fill:#AED6F1,stroke:#2980B9,stroke-width:2px,color:#000000
     style I fill:#F9E79F,stroke:#F1C40F,stroke-width:2px,color:#000000
     style J fill:#E8DAEF,stroke:#9B59B6,stroke-width:2px,color:#000000
-    
+
     A[server] --> B[config.env]
     A --> C[controllers]
     style C1 fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#000000
